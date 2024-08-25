@@ -1,0 +1,7 @@
+salario_funcionario=float(input('Qual o salário do funcionário?: R$'))
+if(salario_funcionario > 1.250):
+    novo_salario=salario_funcionario+(salario_funcionario*0.10) 
+    print('O salario aumentado em 10% ficou R${}'.format(novo_salario))
+else:
+    novo_salario=salario_funcionario+(salario_funcionario*0.15) 
+    print('O salario aumentado em 15% ficou R${}'.format(novo_salario))
